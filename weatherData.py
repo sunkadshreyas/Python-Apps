@@ -51,7 +51,7 @@ def getWeatherData(city):
 
 	base_url = 'http://api.openweathermap.org/data/2.5/weather?'
 
-	api = 'ff5f3e41ab60f030c8a9277fb1a3d818'
+	api = '' # use the api key from website
 
 	url = base_url + 'appid=' + api + '&q=' + city
 
